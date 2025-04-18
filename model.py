@@ -47,7 +47,7 @@ def analyze_text_from_string(text, file_name="Uploaded text"):
 
 def analyze_single_file():
     """Handle file analysis for a single file on a local machine"""
-    file_path = input("Enter the path to the text file: ").strip()
+    file_path = "extracted.txt"
     
     if not os.path.isfile(file_path):
         print(f"Error: File '{file_path}' does not exist.")
